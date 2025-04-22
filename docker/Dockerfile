@@ -11,4 +11,4 @@ RUN apt update && apt --yes --no-install-recommends install \
 RUN pip3 install schedule python-telegram-bot==13.0
 RUN git clone https://github.com/KirillKazakhmedov/PyWorkLifeBalanceBot.git /lam_bot
 
-ENTRYPOINT ["python3", "/root/lam_bot/lam_bot.py"]
+ENTRYPOINT ["python3", "/lam_bot/lam_bot.py"]
