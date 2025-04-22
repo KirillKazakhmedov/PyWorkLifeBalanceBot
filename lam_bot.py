@@ -2,7 +2,7 @@
 from telegram.ext import Updater, CallbackContext
 import logging, schedule, time
 
-CHAT_ID='-690426759'
+CHAT_ID='-4698180911'
 #CHAT_ID='-1001546423285'
 TOKEN='5715366690:AAG-ehvnmIintQwM5INB6oEZSFMu_cVswYs'
 updater = Updater(token=TOKEN, use_context=True)
@@ -80,7 +80,7 @@ def morning_meeting_schedule_creator():
 
 def work_life_balance_schedule_creator():
     schedule.every().monday.at("19:30").do(work_life_balance_callback, updater)
-    schedule.every().tuesday.at("14:30").do(work_life_balance_callback, updater)
+    schedule.every().tuesday.at("15:40").do(work_life_balance_callback, updater)
     schedule.every().wednesday.at("19:30").do(work_life_balance_callback, updater)
     schedule.every().thursday.at("19:30").do(work_life_balance_callback, updater)
     schedule.every().friday.at("19:00").do(work_life_balance_callback, updater)
