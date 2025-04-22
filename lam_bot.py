@@ -80,7 +80,7 @@ def morning_meeting_schedule_creator():
 
 def work_life_balance_schedule_creator():
     schedule.every().monday.at("19:30").do(work_life_balance_callback, updater)
-    schedule.every().tuesday.at("15:40").do(work_life_balance_callback, updater)
+    schedule.every().tuesday.at("15:52").do(work_life_balance_callback, updater)
     schedule.every().wednesday.at("19:30").do(work_life_balance_callback, updater)
     schedule.every().thursday.at("19:30").do(work_life_balance_callback, updater)
     schedule.every().friday.at("19:00").do(work_life_balance_callback, updater)
